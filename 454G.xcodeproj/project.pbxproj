@@ -13,6 +13,7 @@
 		F635F3091E7A500C00DABC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F635F3071E7A500C00DABC6C /* Main.storyboard */; };
 		F635F30B1E7A500C00DABC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F635F30A1E7A500C00DABC6C /* Assets.xcassets */; };
 		F635F30E1E7A500C00DABC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F635F30C1E7A500C00DABC6C /* LaunchScreen.storyboard */; };
+		F635F3171E7A515100DABC6C /* modelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F635F3161E7A515100DABC6C /* modelClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F635F30A1E7A500C00DABC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F635F30D1E7A500C00DABC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F635F30F1E7A500C00DABC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F635F3151E7A515100DABC6C /* modelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modelClass.h; sourceTree = "<group>"; };
+		F635F3161E7A515100DABC6C /* modelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modelClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		F635F2F21E7A500C00DABC6C = {
 			isa = PBXGroup;
 			children = (
+				F635F3151E7A515100DABC6C /* modelClass.h */,
+				F635F3161E7A515100DABC6C /* modelClass.m */,
 				F635F2FD1E7A500C00DABC6C /* 454G */,
 				F635F2FC1E7A500C00DABC6C /* Products */,
 			);
@@ -153,6 +158,7 @@
 			files = (
 				F635F3061E7A500C00DABC6C /* ViewController.m in Sources */,
 				F635F3031E7A500C00DABC6C /* AppDelegate.m in Sources */,
+				F635F3171E7A515100DABC6C /* modelClass.m in Sources */,
 				F635F3001E7A500C00DABC6C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
